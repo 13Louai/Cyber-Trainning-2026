@@ -1,2 +1,17 @@
 My Kali IP is : 192.168.84.128
 Ping to Windows: SUCESS
+
+--- Nmap Scan Results ---
+
+Staring Nmap 7.95 (https://nmap.org) at 2025-12-24 23:09 CET
+Nmap scan report for 192.168.1.61
+Host is up (0.00062s latency).
+Not shown:97 filtered tcp ports (no-response)
+PORT STATE SERVICE
+135/tcp open msrpc
+139/tcp open netbios-ssn 
+445/tcp open microsoft-ds
+
+Nmap done:1 IP address (1 host up) scanned in 1.95 seconds 
+
+Found ports 135,139,445 open on Windows. These are SMB/RPC services used for file sharing. 97 ports filtered by Windows Firewall 
