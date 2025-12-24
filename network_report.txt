@@ -1,0 +1,2 @@
+My Kali IP is : 192.168.84.128
+Ping to Windows: SUCESS
