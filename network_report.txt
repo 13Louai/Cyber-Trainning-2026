@@ -20,3 +20,11 @@ Open a server on my Kali terminal using this command "python3 -m http.server 808
 
 On my browser app i just saw all the files who was on my folder and my Kali terminal was sharing logs information about the one who connect, the hours where he come on the website,the ip, the reponse if it 
 was connecter or not. When i click on one file he just appers on my Windows Screen with all the information inside. 
+
+[TRAFFIC ANALYSIS LOG]
+
+- Observation : Captured HTTP GET request for 'network_report.txt'
+- Security : Traffic is unencrypted (Plaintext)
+- Tools Use : Python3 http.server & Wireshark.
+- Result: Full file names and system metadata (User-Agent) were visible to the network.
+ 
