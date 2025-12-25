@@ -15,3 +15,8 @@ PORT STATE SERVICE
 Nmap done:1 IP address (1 host up) scanned in 1.95 seconds 
 
 Found ports 135,139,445 open on Windows. These are SMB/RPC services used for file sharing. 97 ports filtered by Windows Firewall 
+
+Open a server on my Kali terminal using this command "python3 -m http.server 8080" then i go on my windows browser and tap this addres : "http://[KALI IP]:8080"
+
+On my browser app i just saw all the files who was on my folder and my Kali terminal was sharing logs information about the one who connect, the hours where he come on the website,the ip, the reponse if it 
+was connecter or not. When i click on one file he just appers on my Windows Screen with all the information inside. 
